@@ -4,5 +4,5 @@
 firstname = input("Enter your first name: ")
 lastname = input("Enter your last name: ")
 
-print("Your names are: "+ firstname + " " + lastname)
+print(f"Your names are: {firstname} {lastname}")
 # print("Your names are: ")
