@@ -23,12 +23,28 @@ Scores below 60: Grade E
 print("Please enter your Score to get your Grade: ")
 score = int(input())
 if score >= 90:
-    print("Grade A")
+    age = int(input("Please enter your Age: "))
+    if age <= 12:
+        print("Your Grade is A+")
+    else:
+        print("Your Grade is A")
 elif score >= 80:
-    print("Grade B")
+    age = int(input("Please enter your Age: "))
+    if age <= 12:
+        print("Your Grade is B+")
+    else:
+        print("Your Grade is B")
 elif score >= 70:
-    print("Grade C")
+    age = int(input("Please enter your Age: "))
+    if age <= 12:
+        print("Your Grade is C+")
+    else:
+        print("Your Grade is C")
 elif score >= 60:
-    print("Grade D")
+    age = int(input("Please enter your Age: "))
+    if age <= 12:
+        print("Your Grade is D+")
+    else:
+        print("Your Grade is D")
 else:
     print("Grade E")
