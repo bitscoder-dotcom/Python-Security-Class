@@ -1,6 +1,6 @@
 def main():
     num = int(input("Enter you digit:"))
-    print(f"The {num} raised to power 2 = ", square(num))
+    print(f"The number {num} raised to power 2 = ", square(num))
     
 
 def square(m):
