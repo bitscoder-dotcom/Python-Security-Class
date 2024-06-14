@@ -20,7 +20,7 @@ edibles = [
 
 print(type(edibles))
 for edible in edibles:
-    # print(edible["name"], edible["class"], edible["nutrient"], sep=" | ")
+    print(edible["name"], edible["class"], edible["nutrient"], sep=" | ")
 
     if edible.values == "vitamin":
         print(edible)

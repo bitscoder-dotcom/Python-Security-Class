@@ -14,7 +14,9 @@
 #         break
 # print(f"Okay {age}.")
 
+
   #  OR with funtions
+
 
 def main():
     age = get_int()

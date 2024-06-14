@@ -12,6 +12,6 @@ import sys
 if len(sys.argv) < 3:
     sys.exit("Too Few Arguments")
 
-# The [1:] starts from the object at the second indices to the end
+# The [1:] starts from the element at the second indices to the end
 for arg in sys.argv[1:]: 
     print ("Your name is", arg)
