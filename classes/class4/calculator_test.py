@@ -1,16 +1,13 @@
 from calculator import square
 
-def main():
-    square_test_working()
+def test_square():   
+    assert square(2) == 4
+    assert square(9) == 81
 
-def square_test_working():
-    
-    if square(9) != 81:
-        print("Test failed: 9 squared was not 81")
-    else:
-        print("Test passed: 9 squared was 81")
-    
-    
+def test_negative():
+    assert square(-6) != 12
+    assert square(-8) == 64
 
-if __name__ == "__main__":
-    main()
+def test_zero():
+    assert square(0) == 0
+    
