@@ -1,13 +1,21 @@
 class Student():
     def __init__(self, name, house):
-        if not name:
-            raise ValueError("Missing parameter 'name'")
         self.name = name
         self.house = house
 
     def __str__(self):
-        return f"Hello {self.name} from {self.house}."
+        return f"Welcome  {self.name} from {self.house}."
     
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, name):
+        if not name:
+            raise ValueError("Missing parameter 'name'")
+        self._name = name
+
     # Getter
     @property
     def house(self):
